@@ -82,7 +82,7 @@ $search=$_GET["SearchBar"];
   $url1 = 'http://gdata.youtube.com/feeds/api/videos?q='.$search.'+rumor&orderby=published';
   $proxy="netmon.iitb.ac.in";
   $port="80";
-  $loginpass='120050045:shakti,nath';
+  $loginpass='ldap:pass';
 	// start cURL
   /*$ch = curl_init();
  curl_setopt($ch,CURLOPT_PROXYPORT,$port);

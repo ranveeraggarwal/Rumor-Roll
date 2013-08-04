@@ -78,7 +78,7 @@ $search=$_GET["SearchBar"];
   $url = 'http://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20boss.search%20where%20q%3D%22'.$search.'%20rumors%22%20and%20ck%3D%22dj0yJmk9YWF3ODdGNWZPYjg2JmQ9WVdrOWVsWlZNRk5KTldFbWNHbzlNVEEyTURFNU1qWXkmcz1jb25zdW1lcnNlY3JldCZ4PTUz%22%20and%20secret%3D%22a3d93853ba3bad8a99a175e8ffa90a702cd08cfa%22%3B&diagnostics=true&env=store%3A%2F%2Fdatatables.org%2Falltableswithkeys';
   $proxy="netmon.iitb.ac.in";
   $port="80";
-  $loginpass='120050045:shakti,nath';
+  $loginpass='ldap-id:pass';
 	// start cURL
   $ch = curl_init();
  curl_setopt($ch,CURLOPT_PROXYPORT,$port);
