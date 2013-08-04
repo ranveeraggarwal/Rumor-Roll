@@ -1,4 +1,4 @@
-rumor-roll
+Rumor Roll!
 ==========
 
 Rumor Roll! @Yahoo HackU 2013
